@@ -61,7 +61,7 @@ public class JulianCalendar {
 				
 				if (i <= MONTH_SIZES[j])
 				{
-					System.out.printf("%5s", x);
+					System.out.printf("  %03d", x);
 				}
 				else {
 					System.out.printf("%5s", " ");
